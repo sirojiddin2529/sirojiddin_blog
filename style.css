@@ -1,0 +1,96 @@
+
+.container {
+    /* margin: 0 6; */
+    margin-left: 67px;
+    padding-left: 40px;
+}
+
+.navigation-bar {
+    margin-bottom: 120px;
+}
+
+.navigation-bar h1 {
+    display: inline-block;
+}
+.navigation-bar ul {
+    /* background-color: #000; */
+    list-style-type:none;
+    display: inline-block;
+}
+
+
+.navigation-bar ul li {
+    display: inline-block;
+}
+
+
+.image-section {
+    display: inline-block;
+    /* padding: 100px 100px; */
+    padding-right: 20px;
+}
+
+.overall-info-section {
+    display: inline-block;
+}
+
+.information-section img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+
+.information-section .overall-info-section h1 {
+    /* display: inline-block; */
+    margin: 0;
+}
+
+.information-section .overall-info-section h3 {
+    /* display: inline-block; */
+    margin: 0;
+    color: #00000080;
+}
+
+.logo-section img {
+    width: 26px;
+    height: 26px;
+
+    padding: 0 10px;
+}
+
+.about-section p {
+    font-size: 20px;
+}
+
+.button-section .bg-button {
+    background-color: #1e90ff;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+
+.button-section .bg-button:hover {
+    background-color: #1e8fffd1;
+}
+
+.button-section .bg-transparent-button {
+    background-color: #fff;
+    border: 1px solid #1e90ff;
+    padding: 15px 25px;
+    cursor: pointer;
+    color: #1e90ff;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.button-section .bg-transparent-button:hover {
+    background-color: #1e90ff;
+    color: #fff;
+}
